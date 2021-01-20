@@ -32,7 +32,9 @@ a:hover{
 }
 
 .navigation a:focus{
-    background-color: red;
+    background-color: rgba(96, 26, 117,0.3);
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 .navigation .nav-bar span{
@@ -54,7 +56,10 @@ a:hover{
 }
 
 .navigation .under-nav .button-orange span{
+    display: block;
     padding: 15px 70px;
+    width: max-content;
+    margin: 0 auto;
 
     font-weight: 600;
     font-size: 18px;
@@ -63,6 +68,14 @@ a:hover{
     background-color: #eb7d4c;
     border-bottom: 5px solid #c76a3f;
     border-radius: 5px;
+
+    transition: .3s;
+    cursor: pointer;
+}
+
+.button-orange span:hover{
+    transform: scale(1.1);
+    transition: .3s;
 }
 
 .navigation img{
@@ -215,7 +228,7 @@ span{
     padding: 0 200px;
 }
 
-.portfolio .team-header .menu span:nth-child(1){
+.portfolio .team-header .menu span:hover{
     background-color: #ffffff;
 }
 
@@ -247,7 +260,10 @@ span{
 }
 
 .portfolio-button span{
+    display: block;
     padding: 15px 60px;
+    width: max-content;
+    margin: 0 auto;
 
     font-weight: 600;
     font-size: 18px;
@@ -256,6 +272,14 @@ span{
     background-color: #17c2a4;
     border-bottom: 5px solid #14a58c;
     border-radius: 5px;
+
+    transition: .3s;
+    cursor: pointer;
+}
+
+.portfolio-button span:hover{
+    transform: scale(1.1);
+    transition: .3s;
 }
 
 /* About-us */
